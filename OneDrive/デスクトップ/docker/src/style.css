@@ -1,0 +1,59 @@
+/* 条件c: 入力フォームは中央に作成 */
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    width: 450px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 条件b: h1タグとフォームの色分け */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 条件f: 間隔は統一、条件c: 文字は左寄せ */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* 条件d: 送信ボタンは「青」にして、左に寄せること */
+.btn {
+    background-color: #3B82F6; /* 青 */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: 0; /* 左寄せ */
+}
+
+.btn:hover {
+    background-color: #2563EB;
+}
